@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# MockForMe Example with ReactJs
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) that requires **Node version 18**
 
