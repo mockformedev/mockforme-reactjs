@@ -1,5 +1,9 @@
 # MockForMe Example with ReactJs
 
+This repository demonstrates how to integrate `mockforme` with ReactJs to easily mock APIs during development.
+
+Easily simulate APIs with mockforme — no server setup required, perfect for faster frontend development and testing.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) that requires **Node version 18**
 
 ## Available Scripts
