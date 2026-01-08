@@ -6,18 +6,8 @@ import reportWebVitals from './reportWebVitals';
 
 import { mockforme } from 'mockforme';
 
-const env = "development";
 
-if (env === "development") {
-  /**
-   * You can get access token from:
-   * https://dashboard.mockforme.com/user/token
-   *
-   * Note: Replace ACCESS_TOKEN with your actual access token
-   */
-  const TOKEN = "ACCESS_TOKEN";
-  mockforme(TOKEN).run();
-}
+mockforme().run();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

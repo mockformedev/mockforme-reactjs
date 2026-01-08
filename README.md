@@ -37,12 +37,7 @@ npm i mockforme --save-dev
 ```
 import { mockforme } from 'mockforme';
 
-const env = "development"; // you can put it in .env file or constant file.
-
-if (env === "development") {
-  const ACCESS_TOKEN = ''; // you can move access token to constant or environment file.
-  mockforme(ACCESS_TOKEN).run();
-}
+mockforme().run();
 ```
 > **Note:** To get access token visit: [https://dashboard.mockforme.com/user/token](https://dashboard.mockforme.com/user/token)
 

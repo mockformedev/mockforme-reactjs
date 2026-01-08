@@ -13,21 +13,18 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='center-container'>
+      <h1 className='center'>Integrate mockforme in your application with just two lines of code</h1>
+
+      <code className='code'>
+        <pre>
+          {`
+          import { mockforme } from 'mockforme';
+        
+          mockforme().run();
+          `}
+        </pre>
+      </code>
     </div>
   );
 }
