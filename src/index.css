@@ -19,13 +19,20 @@ code {
 .center-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .code {
-  font-size: 20px;
+  font-size: 14px;
   border-radius: 20px;
-  padding: 100px;
+  padding: 50px 0;
   background-color: #eee;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .code {
+    font-size: 30px;
+    justify-content: center;
+  }
 }

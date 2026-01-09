@@ -19,9 +19,9 @@ function App() {
       <code className='code'>
         <pre>
           {`
-          import { mockforme } from 'mockforme';
-        
-          mockforme().run();
+import { mockforme } from 'mockforme';
+
+mockforme().run();
           `}
         </pre>
       </code>
