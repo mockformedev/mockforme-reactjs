@@ -31,16 +31,19 @@ function App() {
         {/* Since HttpRequestTester already has a 2-column grid internally, I'll modify App.js to wrap it better or modify HttpRequestTester again. */}
         {/* Let's modify App.js to just render HttpRequestTester, but I'll update HttpRequestTester to accept Children for the left column. */}
         <HttpRequestTester>
-          <div className='bg-white p-6 rounded-xl shadow-sm border border-gray-100'>
-            <h3 className='text-sm font-bold text-gray-400 uppercase tracking-wider mb-4'>Integration Code</h3>
+          <div className='bg-white p-6 rounded-xl border border-gray-100 code-block-container'>
+            <h3 className='text-sm font-bold text-black-600 uppercase tracking-wider mb-4'>Integration Code</h3>
             <CodeBlock code={`import { mockforme } from 'mockforme';
 
 mockforme().run();`}
             />
+            <div className='text-base text-black-600 mt-4 italic'>
+              Just add two lines of code to your application, and MockForMe will start intercepting your enabled APIs.
+            </div>
           </div>
         </HttpRequestTester>
       </main>
-    </div>
+    </div >
   );
 }
 
