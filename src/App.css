@@ -40,3 +40,19 @@
 .code-block-container {
   box-shadow: 11px 11px 11px #ccc;
 }
+
+.logo {
+  max-width: 200px;
+  max-height: 42px;
+}
+
+/* .header-section {
+  display: flex;
+  justify-content: space-around;
+} */
+
+@media screen and (max-width: 768px) {
+  .header-section {
+    display: block!important;
+  }
+}

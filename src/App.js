@@ -19,8 +19,9 @@ function App() {
   return (
     <div className='min-h-screen bg-gray-50 pb-20'>
       {/* Heading on top */}
-      <header className='w-full bg-white border-b border-gray-200 py-10 px-4 mb-10 shadow-sm'>
-        <div className='max-w-7xl mx-auto'>
+      <header className='header w-full bg-white border-b border-gray-200 py-10 px-4 mb-10 shadow-sm'>
+        <div className='header-section'>
+          <img src="https://www.mockforme.com/assets/images/logo.png" alt="MockForMe Logo" className="mx-auto mb-4 logo" />
           <h1 className='text-3xl md:text-4xl font-extrabold text-gray-900 text-center leading-tight'>
             Integrate <span className='text-blue-600'>mockforme</span> in your application with just two lines of code
           </h1>
@@ -37,8 +38,14 @@ function App() {
 
 mockforme().run();`}
             />
-            <div className='text-base text-black-600 mt-4 italic'>
-              Just add two lines of code to your application, and MockForMe will start intercepting your enabled APIs.
+          </div>
+
+          <div className='text-base p-4 text-black-600 mt-4 italic bg-[#f0f5f2]'>
+            Just add two lines of code to your application, and MockForMe will start intercepting your enabled APIs.
+
+            <img src="https://ik.imagekit.io/mfm/static-collection/android_devtools_widget.png?updatedAt=1766860455244" alt="MockForMe Widget" className="h-12 mx-auto m-4" />
+            <div>
+              You will see the above widget at bottom right corner of your application once you add the code.
             </div>
           </div>
         </HttpRequestTester>

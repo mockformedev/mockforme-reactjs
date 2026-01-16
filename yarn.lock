@@ -6593,10 +6593,10 @@ mkdirp@~0.5.1:
   dependencies:
     minimist "^1.2.6"
 
-mockforme@^5.0.1:
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/mockforme/-/mockforme-5.0.1.tgz#ddd46b4dc3694d22c3d4b47e284d95e779dd92d6"
-  integrity sha512-g9N7rWbNwcItuJZRDeTV04UMO9nA05efSkjAd9asgLdn50DJWocaOBypJt4t1AdMs8AyAC5KInu3efMtIcpV0w==
+mockforme@^5.0.2:
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/mockforme/-/mockforme-5.0.2.tgz#d2cb329eab8724cf7c066910572d11a478350259"
+  integrity sha512-0cIxPuUWAwZHZfq+9APo+oePKyRluBAARecP09H3TviYvFnImrsZ2Vye7xJx4YCOeko0migFEym46nS/e0W9kA==
 
 ms@2.0.0:
   version "2.0.0"

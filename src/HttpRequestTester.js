@@ -135,8 +135,6 @@ export function HttpRequestTester({ children }) {
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 w-full max-w-7xl mx-auto p-4">
       {/* Left Side: Form */}
       <div className="space-y-6">
-        {children}
-
         <div className="space-y-4 bg-white p-6 rounded-xl shadow-sm border border-gray-100">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">HTTP Request Tester</h2>
 
@@ -239,6 +237,8 @@ export function HttpRequestTester({ children }) {
             </div>
           )}
         </div>
+
+        {children}
       </div>
 
       {/* Right Side: Response */}
