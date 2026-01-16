@@ -7,15 +7,6 @@ import "prismjs/themes/prism-tomorrow.css";
 import { CodeBlock } from './CodeBlock';
 
 function App() {
-
-  useEffect(() => {
-    fetch('/user/me').then((res) => res.json()).then((data) => {
-      console.log(data);
-    }).catch((error) => {
-      console.error('Error fetching user data:', error);
-    });
-  }, []);
-
   return (
     <div className='min-h-screen bg-gray-50 pb-20'>
       {/* Heading on top */}
