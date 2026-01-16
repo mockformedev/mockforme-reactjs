@@ -1,0 +1,81 @@
+.http-tester {
+max-width: 920px;
+margin: 24px auto;
+padding: 16px 18px 20px;
+background: #ffffff;
+border: 1px solid #e5e7eb;
+border-radius: 8px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04);
+}
+
+
+.http-tester h2 {
+margin: 0 0 16px;
+font-size: 18px;
+font-weight: 600;
+color: #111827;
+}
+
+
+.http-tester .field {
+margin-bottom: 14px;
+}
+
+
+.http-tester label {
+display: block;
+font-size: 12px;
+font-weight: 500;
+margin-bottom: 6px;
+color: #374151;
+}
+
+
+.http-tester input,
+.http-tester select,
+.http-tester textarea {
+width: 100%;
+padding: 8px 10px;
+border: 1px solid #d1d5db;
+border-radius: 6px;
+font-size: 13px;
+background: #fff;
+transition: border-color 0.15s ease, box-shadow 0.15s ease;
+}
+
+
+.http-tester input::placeholder,
+.http-tester textarea::placeholder {
+color: #9ca3af;
+}
+
+
+.http-tester input:focus,
+.http-tester select:focus,
+.http-tester textarea:focus {
+outline: none;
+border-color: #2563eb;
+box-shadow: 0 0 0 1px rgba(37, 99, 235, 0.4);
+}
+
+
+.http-tester textarea {
+resize: vertical;
+min-height: 90px;
+font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+}
+
+
+.http-tester .row {
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap: 10px;
+}
+
+
+.http-tester .actions {
+display: flex;
+justify-content: flex-end;
+margin-top: 16px;
+}
