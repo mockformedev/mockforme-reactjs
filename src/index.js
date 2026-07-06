@@ -5,9 +5,8 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 import { mockforme } from 'mockforme';
-
-
 mockforme().run();
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

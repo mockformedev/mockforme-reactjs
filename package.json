@@ -7,14 +7,16 @@
     "@testing-library/jest-dom": "^6.8.0",
     "@testing-library/react": "^16.3.0",
     "@testing-library/user-event": "^13.5.0",
-    "mockforme": "^6.0.0",
+    "mockforme": "^13.3.0",
     "prismjs": "^1.30.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
     "react-scripts": "5.0.1",
+    "source-map-explorer": "^2.5.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -40,7 +42,10 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.23",
+    "gzip-size-cli": "^5.1.0",
     "postcss": "^8.5.6",
-    "tailwindcss": "3.4.17"
+    "tailwindcss": "3.4.17",
+    "webpack-bundle-analyzer": "^5.2.0",
+    "webpack-cli": "^6.0.1"
   }
 }

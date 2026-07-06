@@ -22,7 +22,7 @@ function formatJsonIfPossible(text) {
 }
 
 export function HttpRequestTester({ children }) {
-  const [url, setUrl] = useState("");
+  const [url, setUrl] = useState("https://www.google.com/test");
   const [method, setMethod] = useState("GET");
   const [transport, setTransport] = useState("fetch"); // fetch | xhr
   const [bodyType, setBodyType] = useState("none"); // none | json | form
