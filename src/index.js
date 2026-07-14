@@ -4,7 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-import { mockforme } from 'mockforme';
+// eslint-disable-next-line no-undef
 mockforme().run();
 
 
